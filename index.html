@@ -34,7 +34,8 @@
         async function fetchWeather() {
             try {
                 // Get weather data for the given latitude and longitude (e.g., for Boston)
-                const response = await fetch('https://api.openweathermap.org/data/2.5/onecall?lat=42.48&lon=-71.51&exclude=minutely,hourly,daily&units=imperial&appid=e2b5c21a745a4335b19212449240809');
+                const response = await fetch('https://api.openweathermap.org/data/2.5/onecall?lat=42.48&lon=-71.51&exclude=minutely,hourly,daily&units=imperial&appid=398251774676e9834c97efd3b4dc6275
+');
                 
                 if (!response.ok) {
                     throw new Error('Failed to fetch weather');
